@@ -2,9 +2,9 @@
 
 Submitted by: **Kaila Aquino**
 
-**Tumblr** is an app that displays users blog posts with an imahe. 
+**Tumblr** is an app that displays users blog posts with an image. 
 
-Time spent: **1** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
@@ -13,22 +13,31 @@ The following **required** functionality is completed:
 - [X] Setup navigation to the Detail Screen
 - [X] Created the Detail View UI
 - [X] Add the ability to pass data to the Detail View Controller
-- [ ] Made personal finishing touches to the UI
+- [X] Made personal finishing touches to the UI
+    * Made navigation headers large
+    * Changed header to Tumblr blue
+    * Added "View more" label to post previews 
 
 
 The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
+- N/A
 
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+<div>
+    <a href="https://www.loom.com/share/01e70ce05ed14923aea588e3497a34cd">
+      <p>Loom Message - 22 July 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/01e70ce05ed14923aea588e3497a34cd">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/01e70ce05ed14923aea588e3497a34cd-63169f893eae05b9-full-play.gif">
+    </a>
+  </div>
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+N/A
 
 ## License
 
