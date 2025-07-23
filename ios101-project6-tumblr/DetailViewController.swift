@@ -25,6 +25,9 @@ class DetailViewController: UIViewController {
             let url = photo.originalSize.url
             NukeExtensions.loadImage(with: url, into: imageView)
         }
+        
+        navigationItem.largeTitleDisplayMode = .never
+
 
     }
     

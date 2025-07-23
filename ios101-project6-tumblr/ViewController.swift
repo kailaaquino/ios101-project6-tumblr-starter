@@ -17,6 +17,17 @@ class ViewController: UIViewController, UITableViewDataSource {
 
         tableView.dataSource = self
         fetchPosts()
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let appearance = UINavigationBarAppearance()
+        let customBlue = UIColor(red: 51/255, green: 102/255, blue: 153/255, alpha: 1.0)
+
+        appearance.backgroundColor = customBlue
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+
+
 
     }
 
@@ -44,7 +55,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         // `indexPathForSelectedRow` returns an optional `indexPath`, so we'll unwrap it with a guard.
         guard let selectedIndexPath = tableView.indexPathForSelectedRow else { return }
 
-        // Get the selected movie from the movies array using the selected index path's row
+        // Get the selected post from the posts array using the selected index path's row
         let selectedPost = posts[selectedIndexPath.row]
 
         // Get access to the detail view controller via the segue's destination. (guard to unwrap the optional)
